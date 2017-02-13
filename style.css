@@ -1,0 +1,470 @@
+/*menu colors*/
+/*content colors*/
+@font-face {
+  font-family: 'Roboto';
+  src: url("fonts/Roboto.ttf"); }
+body {
+  font-family: 'Roboto';
+  height: 100%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+li {
+  list-style: none;
+  text-decoration: none; }
+
+a {
+  text-decoration: none; }
+
+a:hover, a:focus {
+  text-decoration: none;
+  outline: none; }
+
+/*side bar style*/
+div.side-bar {
+  height: 100%;
+  width: 235px;
+  background-color: #252525;
+  position: fixed;
+  left: -200px;
+  margin-left: 200px; }
+  div.side-bar div.logo {
+    padding: 10px;
+    background-color: #111111; }
+    div.side-bar div.logo img {
+      display: block;
+      margin: 0 auto;
+      width: 85px; }
+  div.side-bar div.menu-wrapper ul li {
+    border-bottom: 1px solid #191919; }
+    div.side-bar div.menu-wrapper ul li a:hover, div.side-bar div.menu-wrapper ul li a:focus {
+      border-left-color: #f05023;
+      border-right: 2px solid #f05023;
+      color: white;
+      text-decoration: none; }
+      div.side-bar div.menu-wrapper ul li a:hover span, div.side-bar div.menu-wrapper ul li a:focus span {
+        -webkit-filter: brightness(300%);
+        /* Safari 6.0 - 9.0 */
+        filter: brightness(300%); }
+    div.side-bar div.menu-wrapper ul li a {
+      background-color: #252525;
+      padding: 8px 0;
+      display: block;
+      font-size: 14px;
+      border-left: 52px solid #191919;
+      color: #858585;
+      letter-spacing: 0; }
+      div.side-bar div.menu-wrapper ul li a span {
+        display: inline-block;
+        vertical-align: middle; }
+      div.side-bar div.menu-wrapper ul li a span:first-child {
+        position: relative;
+        left: -44px; }
+    div.side-bar div.menu-wrapper ul li a.home span:first-child {
+      background-image: url("images/menu-icons.png");
+      background-repeat: no-repeat;
+      background-size: 288px;
+      background-position: -225px 0;
+      height: 32px;
+      width: 32px; }
+    div.side-bar div.menu-wrapper ul li a.radios span:first-child {
+      background-image: url("images/menu-icons.png");
+      background-repeat: no-repeat;
+      background-size: 288px;
+      background-position: -192px 0;
+      height: 32px;
+      width: 32px; }
+    div.side-bar div.menu-wrapper ul li a.browse span:first-child {
+      background-image: url("images/menu-icons.png");
+      background-repeat: no-repeat;
+      background-size: 288px;
+      background-position: -256px 0;
+      height: 32px;
+      width: 32px; }
+    div.side-bar div.menu-wrapper ul li a.discover span:first-child {
+      background-image: url("images/menu-icons.png");
+      background-repeat: no-repeat;
+      background-size: 288px;
+      background-position: -160px 0;
+      height: 32px;
+      width: 32px; }
+    div.side-bar div.menu-wrapper ul li a.apps span:first-child {
+      background-image: url("images/menu-icons.png");
+      background-repeat: no-repeat;
+      background-size: 288px;
+      background-position: -128px 0;
+      height: 32px;
+      width: 32px; }
+    div.side-bar div.menu-wrapper ul li a.my-favourites span:first-child {
+      background-image: url("images/menu-icons.png");
+      background-repeat: no-repeat;
+      background-size: 288px;
+      background-position: -96px 0;
+      height: 32px;
+      width: 32px; }
+    div.side-bar div.menu-wrapper ul li a.friends-activity span:first-child {
+      background-image: url("images/menu-icons.png");
+      background-repeat: no-repeat;
+      background-size: 288px;
+      background-position: -64px 0;
+      height: 32px;
+      width: 32px; }
+    div.side-bar div.menu-wrapper ul li a.more span:first-child {
+      background-image: url("images/menu-icons.png");
+      background-repeat: no-repeat;
+      background-size: 288px;
+      background-position: -32px 0;
+      height: 32px;
+      width: 32px; }
+    div.side-bar div.menu-wrapper ul li a.create-playlist span:first-child {
+      background-image: url("images/menu-icons.png");
+      background-repeat: no-repeat;
+      background-size: 288px;
+      background-position: 0 0;
+      height: 32px;
+      width: 32px; }
+
+/*end side bar style*/
+/*content style*/
+div.content {
+  padding-left: 235px;
+  width: 100%;
+  height: 100%;
+  /*top menu styling*/
+  /*top menu styling end*/
+  /*product styling*/
+  /*product styling end*/ }
+  div.content div.top-menu {
+    background-color: #252525;
+    width: 100%;
+    height: 45px;
+    min-width: 350px; }
+    div.content div.top-menu div.right-menu {
+      display: block;
+      float: right; }
+      div.content div.top-menu div.right-menu a {
+        color: #858585; }
+      div.content div.top-menu div.right-menu a:hover, div.content div.top-menu div.right-menu a:focus {
+        text-decoration: none;
+        color: #FFFFFF; }
+      div.content div.top-menu div.right-menu ul.search-part {
+        display: inline-block;
+        border-right: 1px solid #191919;
+        border-left: 1px solid #191919; }
+        div.content div.top-menu div.right-menu ul.search-part a {
+          padding: 7px 18px 6px 18px;
+          display: inline-block; }
+          div.content div.top-menu div.right-menu ul.search-part a span {
+            display: inline-block;
+            background-image: url("images/other-icons.png");
+            background-repeat: no-repeat;
+            background-size: 384px;
+            background-position: 0 0;
+            height: 32px;
+            width: 32px;
+            display: inline-block;
+            vertical-align: middle; }
+        div.content div.top-menu div.right-menu ul.search-part a:hover, div.content div.top-menu div.right-menu ul.search-part a:focus {
+          background-color: #f05023; }
+        div.content div.top-menu div.right-menu ul.search-part a:hover span, div.content div.top-menu div.right-menu ul.search-part a:focus span {
+          -webkit-filter: brightness(300%);
+          /* Safari 6.0 - 9.0 */
+          filter: brightness(300%); }
+      div.content div.top-menu div.right-menu ul.user-log {
+        display: inline-block;
+        border-left: 1px solid #191919; }
+        div.content div.top-menu div.right-menu ul.user-log a {
+          display: inline-block;
+          padding: 7px 30px 6px 35px; }
+          div.content div.top-menu div.right-menu ul.user-log a span {
+            background-image: url("images/other-icons.png");
+            background-repeat: no-repeat;
+            background-size: 384px;
+            background-position: -224px 0;
+            display: inline-block;
+            height: 32px;
+            width: 32px;
+            vertical-align: middle; }
+        div.content div.top-menu div.right-menu ul.user-log a:hover, div.content div.top-menu div.right-menu ul.user-log a:focus {
+          background-color: #f05023;
+          color: #FFFFFF; }
+        div.content div.top-menu div.right-menu ul.user-log a:hover span, div.content div.top-menu div.right-menu ul.user-log a:focus span {
+          -webkit-filter: brightness(300%);
+          /* Safari 6.0 - 9.0 */
+          filter: brightness(300%); }
+      div.content div.top-menu div.right-menu ul.player-part {
+        vertical-align: middle;
+        display: inline-block; }
+        div.content div.top-menu div.right-menu ul.player-part li {
+          margin-right: 0px;
+          display: inline-block;
+          vertical-align: middle; }
+          div.content div.top-menu div.right-menu ul.player-part li a {
+            display: inline-block;
+            vertical-align: middle; }
+          div.content div.top-menu div.right-menu ul.player-part li a:hover span, div.content div.top-menu div.right-menu ul.player-part li a:focus span {
+            -webkit-filter: brightness(300%);
+            /* Safari 6.0 - 9.0 */
+            filter: brightness(300%); }
+        div.content div.top-menu div.right-menu ul.player-part li.backward {
+          margin-right: -10px;
+          margin-left: 20px; }
+          div.content div.top-menu div.right-menu ul.player-part li.backward a {
+            background-image: url("images/other-icons.png");
+            background-repeat: no-repeat;
+            background-size: 384px;
+            background-position: -34px 0;
+            display: inline-block;
+            height: 32px;
+            width: 32px; }
+          div.content div.top-menu div.right-menu ul.player-part li.backward a:hover, div.content div.top-menu div.right-menu ul.player-part li.backward a:focus {
+            -webkit-filter: brightness(300%);
+            /* Safari 6.0 - 9.0 */
+            filter: brightness(300%); }
+        div.content div.top-menu div.right-menu ul.player-part li.play {
+          margin-right: -10px; }
+          div.content div.top-menu div.right-menu ul.player-part li.play a {
+            background-image: url("images/other-icons.png");
+            background-repeat: no-repeat;
+            background-size: 384px;
+            background-position: -64px 0;
+            display: inline-block;
+            height: 32px;
+            width: 32px; }
+        div.content div.top-menu div.right-menu ul.player-part li.forward a {
+          background-image: url("images/other-icons.png");
+          background-repeat: no-repeat;
+          background-size: 384px;
+          background-position: -96px 0;
+          display: inline-block;
+          height: 32px;
+          width: 32px; }
+        div.content div.top-menu div.right-menu ul.player-part li.forward a:hover, div.content div.top-menu div.right-menu ul.player-part li.forward a:focus {
+          -webkit-filter: brightness(300%);
+          /* Safari 6.0 - 9.0 */
+          filter: brightness(300%); }
+        div.content div.top-menu div.right-menu ul.player-part li.bar {
+          margin: 0 20px;
+          width: 202px; }
+          div.content div.top-menu div.right-menu ul.player-part li.bar div.holder {
+            position: relative;
+            width: 100%;
+            height: 3px;
+            background-color: #ddd;
+            display: block; }
+          div.content div.top-menu div.right-menu ul.player-part li.bar div.holder:hover, div.content div.top-menu div.right-menu ul.player-part li.bar div.holder-bar:hover {
+            cursor: pointer; }
+          div.content div.top-menu div.right-menu ul.player-part li.bar div.holder-bar {
+            position: absolute;
+            width: 50%;
+            height: 100%;
+            background-color: #f05023;
+            display: block; }
+        div.content div.top-menu div.right-menu ul.player-part li.time {
+          margin-right: 20px; }
+        div.content div.top-menu div.right-menu ul.player-part li.volume a {
+          background-image: url("images/other-icons.png");
+          background-repeat: no-repeat;
+          background-size: 384px;
+          background-position: -128px 0;
+          display: inline-block;
+          height: 32px;
+          width: 32px; }
+        div.content div.top-menu div.right-menu ul.player-part li.volume a:hover, div.content div.top-menu div.right-menu ul.player-part li.volume a:focus {
+          -webkit-filter: brightness(300%);
+          /* Safari 6.0 - 9.0 */
+          filter: brightness(300%); }
+        div.content div.top-menu div.right-menu ul.player-part li.shuffle a {
+          background-image: url("images/other-icons.png");
+          background-repeat: no-repeat;
+          background-size: 384px;
+          background-position: -160px 0;
+          display: inline-block;
+          height: 32px;
+          width: 32px; }
+        div.content div.top-menu div.right-menu ul.player-part li.shuffle a:hover, div.content div.top-menu div.right-menu ul.player-part li.shuffle a:focus {
+          -webkit-filter: brightness(300%);
+          /* Safari 6.0 - 9.0 */
+          filter: brightness(300%); }
+        div.content div.top-menu div.right-menu ul.player-part li.refresh {
+          margin-right: 20px; }
+          div.content div.top-menu div.right-menu ul.player-part li.refresh a {
+            background-image: url("images/other-icons.png");
+            background-repeat: no-repeat;
+            background-size: 384px;
+            background-position: -192px 0;
+            display: inline-block;
+            height: 32px;
+            width: 32px; }
+          div.content div.top-menu div.right-menu ul.player-part li.refresh a:hover, div.content div.top-menu div.right-menu ul.player-part li.refresh a:focus {
+            -webkit-filter: brightness(300%);
+            /* Safari 6.0 - 9.0 */
+            filter: brightness(300%); }
+  div.content div.page-content {
+    padding: 25px; }
+    div.content div.page-content div.product {
+      display: inline-block;
+      width: 700px;
+      height: 100%;
+      vertical-align: top; }
+      div.content div.page-content div.product div.banner {
+        margin-bottom: 25px; }
+        div.content div.page-content div.product div.banner img {
+          width: 700px; }
+      div.content div.page-content div.product div.new-release div.orange-bar {
+        position: relative;
+        width: 20px;
+        height: 3px;
+        background-color: #f05023;
+        display: block; }
+      div.content div.page-content div.product div.new-release div.heading {
+        margin-bottom: 30px; }
+        div.content div.page-content div.product div.new-release div.heading ul li {
+          display: inline-block;
+          vertical-align: middle;
+          letter-spacing: -1px;
+          font-weight: bold; }
+        div.content div.page-content div.product div.new-release div.heading ul li:first-child {
+          color: #252525;
+          font-size: 24px;
+          font-weight: bold;
+          letter-spacing: -1px;
+          margin-right: 10px; }
+        div.content div.page-content div.product div.new-release div.heading ul li:nth-child(2) {
+          padding: 5px 10px;
+          color: #FFFFFF;
+          background-color: #f05023;
+          font-size: 12px;
+          letter-spacing: 0.1em; }
+        div.content div.page-content div.product div.new-release div.heading ul li:nth-child(3) {
+          float: right; }
+          div.content div.page-content div.product div.new-release div.heading ul li:nth-child(3) a {
+            color: #585858;
+            float: right;
+            font-size: 16px; }
+      div.content div.page-content div.product div.new-release div.new-release-list ul li {
+        display: inline-block;
+        margin-bottom: 30px;
+        margin-right: 6px; }
+        div.content div.page-content div.product div.new-release div.new-release-list ul li a ul li {
+          display: block;
+          margin-bottom: 0;
+          margin-right: 0; }
+        div.content div.page-content div.product div.new-release div.new-release-list ul li a ul li:first-child img {
+          width: 132px; }
+        div.content div.page-content div.product div.new-release div.new-release-list ul li a ul li:nth-child(2) {
+          color: #252525;
+          font-size: 13px;
+          font-weight: 600;
+          letter-spacing: -0.02em;
+          margin-top: 14px;
+          margin-bottom: 2px; }
+        div.content div.page-content div.product div.new-release div.new-release-list ul li a ul li:last-child {
+          color: #919191;
+          font-size: 12px;
+          letter-spacing: 0; }
+      div.content div.page-content div.product div.new-release div.new-release-list ul li:nth-child(5n + 5) {
+        margin-right: 0; }
+      div.content div.page-content div.product div.discover div.orange-bar {
+        position: relative;
+        width: 20px;
+        height: 3px;
+        background-color: #f05023;
+        display: block; }
+      div.content div.page-content div.product div.discover div.heading {
+        margin-bottom: 30px; }
+        div.content div.page-content div.product div.discover div.heading ul li {
+          display: inline-block;
+          vertical-align: middle;
+          letter-spacing: -1px;
+          font-weight: bold; }
+        div.content div.page-content div.product div.discover div.heading ul li:first-child {
+          color: #252525;
+          font-size: 24px;
+          font-weight: bold;
+          letter-spacing: -1px;
+          margin-right: 10px; }
+        div.content div.page-content div.product div.discover div.heading ul li:nth-child(2) {
+          padding: 5px 10px;
+          color: #FFFFFF;
+          background-color: #f05023;
+          font-size: 12px;
+          letter-spacing: 0.1em; }
+        div.content div.page-content div.product div.discover div.heading ul li:nth-child(3) {
+          float: right; }
+          div.content div.page-content div.product div.discover div.heading ul li:nth-child(3) a {
+            color: #585858;
+            float: right;
+            font-size: 16px; }
+      div.content div.page-content div.product div.discover div.discover-list ul li {
+        display: inline-block;
+        margin-bottom: 30px;
+        margin-right: 6px; }
+        div.content div.page-content div.product div.discover div.discover-list ul li a {
+          display: inline-block;
+          position: relative; }
+          div.content div.page-content div.product div.discover div.discover-list ul li a img {
+            width: 132px; }
+          div.content div.page-content div.product div.discover div.discover-list ul li a div {
+            position: absolute;
+            display: block;
+            width: auto;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-weight: bold; }
+      div.content div.page-content div.product div.discover div.discover-list ul li:nth-child(5n + 5) {
+        margin-right: 0; }
+    div.content div.page-content div.play-list {
+      display: inline-block;
+      width: 329px;
+      margin-left: 25px; }
+      div.content div.page-content div.play-list div.now-playing img {
+        width: 329px; }
+      div.content div.page-content div.play-list ul.song-list li a {
+        font-size: 14px;
+        padding: 20px;
+        background-color: #1a1a1a;
+        color: #FFFFFF;
+        display: block;
+        border-bottom: 1px solid #0f0f0f; }
+        div.content div.page-content div.play-list ul.song-list li a span {
+          display: inline-block; }
+        div.content div.page-content div.play-list ul.song-list li a span:first-child {
+          color: #747474;
+          margin-right: 5px; }
+        div.content div.page-content div.play-list ul.song-list li a span:nth-child(2) {
+          display: inline-block;
+          vertical-align: top;
+          width: 260px; }
+          div.content div.page-content div.play-list ul.song-list li a span:nth-child(2) li:nth-child(2) {
+            margin-top: 15px;
+            color: #747474; }
+            div.content div.page-content div.play-list ul.song-list li a span:nth-child(2) li:nth-child(2) ul li {
+              font-size: 12px; }
+            div.content div.page-content div.play-list ul.song-list li a span:nth-child(2) li:nth-child(2) ul li:first-child {
+              float: left; }
+            div.content div.page-content div.play-list ul.song-list li a span:nth-child(2) li:nth-child(2) ul li:nth-child(2) {
+              float: right;
+              margin-top: 0; }
+      div.content div.page-content div.play-list ul.song-list li a:hover,
+      div.content div.page-content div.play-list ul.song-list li a:focus {
+        background-color: #f05023; }
+        div.content div.page-content div.play-list ul.song-list li a:hover span,
+        div.content div.page-content div.play-list ul.song-list li a:focus span {
+          color: #FFFFFF; }
+          div.content div.page-content div.play-list ul.song-list li a:hover span li, div.content div.page-content div.play-list ul.song-list li a:hover span li:nth-child(2),
+          div.content div.page-content div.play-list ul.song-list li a:focus span li,
+          div.content div.page-content div.play-list ul.song-list li a:focus span li:nth-child(2) {
+            color: #FFFFFF; }
+
+/*end content style*/
+
+/*# sourceMappingURL=style.css.map */
